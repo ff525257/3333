@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@id/LinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <!--  
+        <Button
+            android:id="@id/Light_red"
+            android:layout_width="wrap_content"
+            android:layout_height="100.0dip"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_default"
+            android:text="@string/LED_red"
+            android:textColor="@color/gray" />
+         -->   
+
+        <Button
+            android:id="@id/Light_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="100.0dip"
+            android:background="@drawable/btn_default"
+            android:text="@string/LED_blue"
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@id/display_bt_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:background="@drawable/btn_fcm_sucess"
+            android:text="@string/Success"
+            android:textColor="@color/gray"
+            android:textSize="25.0dip" />
+
+        <Button
+            android:id="@id/display_bt_failed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@drawable/btn_fcm_fail"
+            android:text="@string/Failed"
+            android:textColor="@color/gray"
+            android:textSize="25.0dip" />
+    </LinearLayout>
+
+</LinearLayout>

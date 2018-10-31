@@ -1,0 +1,6 @@
+config LY_GPIO_SOSKEY_SUPPORT
+	tristate "GPIO soskey support"
+	depends on GPIOLIB
+	help
+	  Say Y here to enable GPIO based soskey support.
+
